@@ -3,6 +3,8 @@ import discord
 from discord.ext import commands
 import asyncio
 
+intents=discord.Intents.default()
+
 bot = commands.Bot(command_prefix='$')
 TOKEN = "OTcyMTIwMjg5MjE3NTA3NDAw.GarLqo.piV-_Ud68os_pewf4RqjcmAaHvrsT_fC7CNjBU"
 bot_text_channel = bot.get_channel(974632452909826048)
