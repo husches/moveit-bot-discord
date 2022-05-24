@@ -1,6 +1,6 @@
 git+https://github.com/Rapptz/discord.py
 discord.py
-http
+http.client
 asyncio
 
 
